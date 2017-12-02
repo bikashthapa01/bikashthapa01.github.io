@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,600');
 body {
 	margin:0;
 	padding: 0;
@@ -5,14 +7,25 @@ body {
 }
 .header {
 	padding: 5px;
-	background: #fff;
+	background: #03A9F4;
 	text-align: center;
 }
-
+.header h1 {
+	margin-bottom: 0;
+}
 .header h1 a {
-	color:#000;
+	color:#fff;
+	font-weight: 600;
 	text-decoration: none;
 	font-size: 30px;
+	font-family: 'Spectral SC', serif;
+
+}
+.header h3 {
+	margin: 0;
+	font-size: 13px;
+	color:#fff;
+	font-family: 'Spectral SC', serif;
 }
 .body {
 	max-width: 70%;
@@ -23,11 +36,12 @@ body {
 }
 
 .footer {
-	background: #fff;
+	background:#0174cf;
 	padding: 5px;
 }
 .footer div {
 	max-width: 70%;
 	margin: auto;
 	padding: 5px;
+	color: #fff;
 }
