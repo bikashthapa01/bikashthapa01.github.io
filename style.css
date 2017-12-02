@@ -3,12 +3,16 @@
 body {
 	margin:0;
 	padding: 0;
-	background: #ccc;
+	color:#fff;
 }
 .header {
 	padding: 5px;
 	background: #03A9F4;
 	text-align: center;
+	background: url(img/hbg.jpg);
+	background-repeat: space;
+	margin-bottom: 0.5px;
+
 }
 .header h1 {
 	margin-bottom: 0;
@@ -17,25 +21,34 @@ body {
 	color:#fff;
 	font-weight: 600;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Spectral SC', serif;
+	border-bottom: 0.5px solid;
+
+}
+.border {
 
 }
 .header h3 {
 	margin: 0;
-	font-size: 13px;
+	font-size: 16px;
 	color:#fff;
 	font-family: 'Spectral SC', serif;
 }
 .body {
-	max-width: 70%;
-	margin:auto;
 	padding: 5px;
 	text-align: center;
 	/*background: #fff;*/
+	background: url(img/bg.png);
+	background-repeat: no-repeat;
+}
+.content {
+	max-width: 70%;
+	margin:auto;
 }
 
 .footer {
+	margin-top: 0.5px;
 	background:#0174cf;
 	padding: 5px;
 }
