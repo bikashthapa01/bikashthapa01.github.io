@@ -67,7 +67,7 @@ body {
     top: 25%;
     width: 100%;
 }
-.home,.aboutMe {
+.home,.aboutMe,.myWorks,.contactMe{
 	position: absolute;
     left: 0;
     top: 40%;
@@ -76,15 +76,19 @@ body {
     left: 15%;
 
 }
-.aboutMe {
+.aboutMe,.myWorks,.contactMe{
 	display: none;
 }
-.home span.border , .aboutMe span.border {
+.home span.border , .aboutMe span.border ,.myWorks span.border,.contactMe span.border {
 	/*background-color: #111;*/
     color: #fff;
     /*padding: 18px;*/
     font-size: 18px;
     font-family: 'Spectral SC', serif;
+}
+.home .border h1 {
+	font-size: 5vh;
+
 }
 .footer {
 	margin-top: 0.5px;
