@@ -68,17 +68,18 @@ body {
     width: 100%;
 }
 .welcome_button {
-	/*position: absolute;*/
+	position: absolute;
     left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
+    top: 40%;
+    width: 70%;
+    text-align: left;
+    left: 15%;
 
 }
 .welcome_button span.border , .content span.border {
 	/*background-color: #111;*/
     color: #fff;
-    padding: 18px;
+    /*padding: 18px;*/
     font-size: 18px;
     font-family: 'Spectral SC', serif;
 }
