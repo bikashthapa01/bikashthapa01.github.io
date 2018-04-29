@@ -67,7 +67,7 @@ body {
     top: 25%;
     width: 100%;
 }
-.welcome_button {
+.home,.aboutMe {
 	position: absolute;
     left: 0;
     top: 40%;
@@ -76,7 +76,10 @@ body {
     left: 15%;
 
 }
-.welcome_button span.border , .content span.border {
+.aboutMe {
+	display: none;
+}
+.home span.border , .aboutMe span.border {
 	/*background-color: #111;*/
     color: #fff;
     /*padding: 18px;*/
@@ -93,4 +96,12 @@ body {
 	margin: auto;
 	padding: 5px;
 	color: #fff;
+}
+
+/*Responsive Website*/
+@media screen and (max-width: 600px) {
+    .title {
+    	text-align: center;
+    	width: 100%;
+    }
 }
