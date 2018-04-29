@@ -1,19 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,600');
+html {
+	overflow: auto;
+}
 body {
 	margin:0;
 	padding: 0;
 	color:#fff;
 }
 .header {
-	padding: 5px;
-	background: #03A9F4;
-	text-align: center;
-	/*background: url(img/hbg.jpg);*/
-	background-repeat: space;
-	margin-bottom: 0.5px;
-	width: 100%;
-
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/port.jpg);
+	background-image: cover;
+	background-position: center;
+	min-height: 100vh;
+	
+}
+.site-header {
+	width: 90%;
+	margin: auto;
 }
 .header h1 {
 	margin-bottom: 0;
@@ -27,27 +31,57 @@ body {
 	border-bottom: 0.5px solid;
 
 }
-.border {
+.title {
+	width: 30%;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Spectral SC',serif;
+}
 
+.main_nav {
+	float: right;
+	padding: 10px;
 }
-.header h3 {
-	margin: 0;
-	font-size: 16px;
-	color:#fff;
-	font-family: 'Spectral SC', serif;
-}
-.body {
+.main_nav li {
+	list-style: none;
+	display: inline-block;
 	padding: 5px;
-	text-align: center;
-	/*background: #fff;*/
-	background: url(img/bg.png);
-	background-repeat: no-repeat;
 }
-.content {
-	max-width: 70%;
-	margin:auto;
+.main_nav li a {
+	 font-family: 'Spectral SC',serif;
+	 font-size: 20px;
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 5px;
+}
+.main_nav li.active a {
+	border: 1px solid #ffffff;
 }
 
+
+.content {
+	height: 50vh;
+	position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+}
+.welcome_button {
+	/*position: absolute;*/
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+.welcome_button span.border , .content span.border {
+	/*background-color: #111;*/
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
+    font-family: 'Spectral SC', serif;
+}
 .footer {
 	margin-top: 0.5px;
 	background:#0174cf;
