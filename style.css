@@ -28,7 +28,6 @@ body {
 	text-decoration: none;
 	font-size: 40px;
 	font-family: 'Spectral SC', serif;
-	border-bottom: 0.5px solid;
 
 }
 .title {
@@ -101,7 +100,6 @@ body {
 	padding: 5px;
 	color: #fff;
 }
-
 /*Responsive Website*/
 @media screen and (max-width: 600px) {
     .title {
