@@ -36,7 +36,7 @@ a, a:visited {
 .site-branding p small {
     display: block;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 
@@ -48,17 +48,29 @@ a, a:visited {
 
 .content {
     float: left;
-    width: 60%;
+    width: 69%;
     margin-right: 1%;
 }
-.content h1,.sidebar h1 {
+.content h1,.sidebar h1,.content h2 {
     margin: 0;
     border-bottom: 1px solid;
     font-size : 25px;
 }
+.content h1 {
+    background: #607D8B;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: 1rem;
+}
+
+.content h2 {
+    font-size: 20px;
+}
 .sidebar {
     float: left;
-    width: 39%;
+    width: 30%;
 }
 
 .site-footer {
