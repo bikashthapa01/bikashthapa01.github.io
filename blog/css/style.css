@@ -1,0 +1,66 @@
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.wrapper {
+    margin: auto;
+    max-width: 1100px;
+    margin-top: 1rem;
+}
+
+.site-header {
+    padding: 1rem;
+    background: #3F51B5;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.site-branding {
+
+}
+
+.site-branding p {
+    margin: 0;
+    font-family: font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+
+.site-branding p small {
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+.site-content {
+    background: #fff;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.content {
+    float: left;
+    width: 60%;
+    margin-right: 1%;
+}
+.content h1,.sidebar h1 {
+    margin: 0;
+    border-bottom: 1px solid;
+    font-size : 25px;
+}
+.sidebar {
+    float: left;
+    width: 39%;
+}
+
+.site-footer {
+    background: #3F51B5;
+    padding: 1rem;
+}
+
+.site-footer p {
+    color: #fff;
+}

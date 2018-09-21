@@ -1,0 +1,1 @@
+document.write('<footer class="site-footer"><p>&copy; All Right Reserved | Bikash Thapa </p></footer>');
