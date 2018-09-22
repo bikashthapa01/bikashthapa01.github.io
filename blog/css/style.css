@@ -119,6 +119,9 @@ a, a:visited {
     .content {
         width: 100%;
     }
+    .article {
+        overflow: hidden;
+    }
 
     .article img {
         width: 100%;
