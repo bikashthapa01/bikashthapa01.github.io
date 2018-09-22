@@ -111,3 +111,21 @@ a, a:visited {
 .site-footer p {
     color: #fff;
 }
+
+@media only screen and (max-width: 800px){
+    .wrapper {
+        margin: 0;
+    }
+    .content {
+        width: 100%;
+    }
+
+    .article img {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+}
