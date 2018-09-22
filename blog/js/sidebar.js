@@ -1,1 +1,1 @@
-document.write(' <div class="sidebar"><h1>Sidebar</h1></div>');
+document.write(' <div class="sidebar"><h1>Sidebar</h1><p>I have to nothing to add here.</p></div>');

@@ -21,7 +21,9 @@ a, a:visited {
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.site-branding {
+.site-branding  a{
+
+    color: #fff;
 
 }
 
@@ -32,6 +34,8 @@ a, a:visited {
     font-size: 25px;
     color: #fff;
 }
+
+
 
 .site-branding p small {
     display: block;
@@ -68,6 +72,32 @@ a, a:visited {
 .content h2 {
     font-size: 20px;
 }
+.article-title {
+    font-size:25px;
+    border-bottom: 1px solid;
+}
+.article-title h4 {
+    margin:1rem;
+}
+.article-title code {
+    display: block;
+    font-size: 13px;
+    color: red;
+}
+
+.article img {
+    width: 50%;
+    float: left;
+    padding: 1rem;
+
+}
+.article-footer {
+    display: block;
+    clear: both;
+    background: #eee;
+    padding: 5px;
+}
+
 .sidebar {
     float: left;
     width: 30%;
