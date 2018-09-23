@@ -84,12 +84,23 @@ a, a:visited {
     font-size: 13px;
     color: red;
 }
+.article ul  li {
+    margin-bottom: 1rem;
+}
 
 .article img {
     width: 50%;
     float: left;
     padding: 1rem;
+    margin-right: 5px;
 
+}
+.article .full-screen {
+    width: 100%;
+}
+.article-body code{
+    background: #ccc;
+    padding: 5px;
 }
 .article-footer {
     display: block;
