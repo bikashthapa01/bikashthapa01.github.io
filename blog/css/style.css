@@ -143,3 +143,14 @@ a, a:visited {
     }
 
 }
+
+@media print{
+    
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
