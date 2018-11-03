@@ -1,9 +1,67 @@
 
-@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,600');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
 html {
 	overflow: auto;
 }
 body {
-	
-    font-family: "Spectral SC";
+	margin: 0;
+	padding: 0;
+	background: #ccc;
+    font-family: 'Patrick Hand', cursive;
+}
+.content,.content_details {
+    margin: auto;
+    max-width: 50%;
+    margin-top: 2%;
+}
+.content_details {
+	background: #fff;
+	padding: 1rem;
+	margin-top: 1%;
+
+}
+.profile_info li a {
+	text-decoration: none;
+	color: #E91E63;
+}
+.content_details h1 {
+	border-bottom: 1px solid #ccc;
+	display:initial;
+}
+.content_details p {
+	font-size: 20px;
+}
+.profile {
+	overflow: hidden;
+	background: #fff;
+	border-radius: 5px;
+}
+
+
+.profile_img {
+	width: 15%;
+    float: left;
+    padding: 1rem;
+}
+.profile_img img  {
+	width: 100%;
+}
+
+.profile_info {
+	width: 76%;
+    float: left;
+    margin-right: 1%;
+}
+.profile_info h1 {
+	margin: 0;
+	font-size: 40px;
+	font-family: inherit;
+}
+
+.profile_info ul {
+	margin: 0;
+	font-size: 20px;
+}
+small {
+	display: block;
 }
