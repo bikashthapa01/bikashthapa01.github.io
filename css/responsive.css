@@ -50,7 +50,9 @@
 
 /*screen below 600px */
 @media only screen and (max-width: 700px){ 
-
+	.container {
+		overflow: overlay;
+	}
 	.intro__h1 {
 		margin: 0;
 	}
@@ -75,9 +77,40 @@
 	.works {
 		clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%);
 	}
-	.works-group,.skills,.contact__content {
+	.works-group,.skills-set,.contact__content {
 		flex-direction: column;
 	}
 
 
 }
+
+
+@media only screen and (max-width: 700px){
+
+	.intro {
+		text-align: center;
+		transition: all 1s;
+	}
+	.intro-wrapper {
+		min-height:65vh;
+	}
+	.intro__h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.intro__h1__span {
+		font-size: 55px;
+	}
+	.intro__p {
+		font-size:15px;
+		margin: 0;
+	}
+	.about-me__intro p {
+		text-align: center;
+	}
+	.work-category a {
+		line-height: 50px;
+	}
+
+
+ }
