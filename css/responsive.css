@@ -48,7 +48,7 @@
 	}
 }
 
-/*screen below 600px */
+/*screen below 700px */
 @media only screen and (max-width: 700px){ 
 	.container {
 		overflow: overlay;
