@@ -1,35 +1,257 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bikash Thapa | Programmer And CS Student</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>(Alpha Version) Bikash Thapa | Engineer  & Developer </title>
+	<link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	<div class="content">
-		<div class="profile">
-			<div class="profile_img">
-				<img src="img/profile.jpg">
-			</div>
-			<div class="profile_info">
-				<h1>Bikash Thapa</h1>
-				<ul>
-					<li><a href="#about">About Me</a></li>
-					<li><a traget="__bank" href="http://github.com/bikashthapa01">Works</a></li>
-					<li><a href="/resume">Resume</a></li>
-					<li><a href="http://linkedin.com/in/bikashny" target="__bank">Connect With Me</a></li>
-				</ul>
+	<div class="container">
+	<div class="intro-wrapper">
+			<div class="navigation" id="navigation">
+				<nav class="navigation__nav">
+					<ul class="navigation__list">
+						<li class="navigation__item"><a href="#">Home</a></li>
+						<li class="navigation__item"><a href="#about">About Me</a></li>
+						<li class="navigation__item"><a href="#skills">Skills</a></li>
+						<li class="navigation__item"><a href="#works">Works</a></li>
+						<li class="navigation__item"><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+		</div>
+			<div class="intro">
+					<h1 class="intro__h1">Bikash<span class="intro__h1__span">Thapa</span> </h1>
+					<p class="intro__p">A Full Stack <span style="border-bottom: 2px solid #673AB7;">Developer</span></p>
 			</div>
 		</div>
+			<div class="box-container">
+				<div class="about-me" id="about">
+					<h1 class="about-me__title">About Me</h1>
+					<div class="about">
+						<div class="about__image">
+							<img  src="img/me.jpg">
+						</div>
+						<div class="about__content">
+								<div class="about__content--info">
+									<div class="about__content--label">Name</div>
+									<div class="about__content--value">Bikash Thapa</div>
+								</div>
+
+								<div class="about__content--info">
+									<div class="about__content--label">Age</div>
+									<div class="about__content--value">23</div>
+								</div>
+
+								<div class="about__content--info">
+									<div class="about__content--label">Address</div>
+									<div class="about__content--value">Bangalore</div>
+								</div>
+
+								<div class="about__content--info">
+									<div class="about__content--label">Email</div>
+									<div class="about__content--value">thapabikash48@gmail.com</div>
+								</div>
+
+								<div class="about__content--info">
+									<div class="about__content--label">Phone</div>
+									<div class="about__content--value">+91 8792626018</div>
+								</div>
+
+								<div class="about__content--social">
+									<a href="#"><i class="fab fa-github"></i></a>
+									<a href="#"><i class="fab fa-codepen"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-linkedin"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+						</div>
+					</div>
+
+					<div class="about-me__intro">
+						<p>Hello! I am Bikash Thapa, An Engineering Student, Designer & Developer. <br> I believe in HardWork, With hardwork and Determination, Impossible is just a Word. </p>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<div class="works" id="works"> 
+				<h1 class="about-me__title">MY WORKS SO FAR</h1>
+				<div class="work-category">
+					<a onclick="showDiv('webdesign')" href="#wdesign">Web Design</a>
+					<a onclick="showDiv('wordpress')" href="#wordpress" >Wordpres</a>
+					<a href="#python">Python/NodeJs</a>
+					<a href="#android">Android</a>
+				</div>
+				<div class="works-group" id="webdesign">
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Title Of Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Title Of Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Title Of Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="works-group" id="wordpress">
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Wordpress Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Title Of Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+					<div class="works-group__box">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">Title Of Project</h1>
+							</div>
+
+							<div class="card__side card__side--back">
+								<img class="card__side--img" src="img/work.jpg">
+								<h1 class="card__side--h1">View Project</h1>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			<!-- </div> -->
+
 	</div>
 
-	<div class="content_details">
-		<div class="about_me">
-			<h1>About Me</h1>
-			<p id="about">
-				Hello World, I am Bikash From Nepal. Currently Studying in 3rd Year of Bachelor in Computer Science from Bangalore India. 
-				<small>I Like Writing Code, I like to solve problem and do thought experiments. I like to think about every possibility, analyze them and Apply them in real life. </small>
-			</p>
+			<div class="skills" id="skills"> 
+				<h1 class="about-me__title">MY SKILLS</h1>
+				<div class="skills-set">
+					<div class="skills__circle">
+						<div class="circle">
+							<span>Advanced</span>
+							<div class="circle__bar circle__bar__advanced"></div>
+							<div class="circle__rev circle__advanced"></div>
+							<div class="circle__fill"></div>
+						</div>
+						<h1 class="circle__h1">Web Design</h1>
+					</div>
+
+					<div class="skills__circle">
+						<div class="circle">
+							<span>Intermediate</span>
+							<div class="circle__bar circle__bar__intermediate"></div>
+							<div class="circle__rev circle__intermediate"></div>
+							<div class="circle__fill"></div>
+						</div>
+						<h1 class="circle__h1">php/MySQL</h1>
+					</div>
+
+					<div class="skills__circle">
+						<div class="circle">
+							<span>Beginner</span>
+							<div class="circle__bar circle__bar__beginner"></div>
+							<div class="circle__rev circle__beginner"></div>
+							<div class="circle__fill"></div>
+						</div>
+						<h1 class="circle__h1">Django</h1>
+					</div>
+
+					<div class="skills__circle">
+						<div class="circle">
+							<span>Beginner</span>
+							<div class="circle__bar circle__bar__beginner"></div>
+							<div class="circle__rev circle__beginner"></div>
+							<div class="circle__fill"></div>
+						</div>
+						<h1 class="circle__h1">NodeJs</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact" id="contact">
+				<!-- <h1 class="about-me__title">Talk To Me</h1> -->
+				
+				<div class="contact__content">
+					<div class="contact__social">
+						<h1>Connect With Me</h1>
+						<div class="accounts">
+							<a href="#"><i class="fab fa-github"></i></a>
+							<a href="#"><i class="fab fa-codepen"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-linkedin"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+					<form class="contact__form" action="mail.html">
+						<h1>Contact Me </h1>
+						<input type="text" name="name" placeholder="Full Name">
+						<input type="email" name="email" placeholder="Your Email">
+						<textarea placeholder="Message"></textarea>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+		<div class="footer">
+			<div class="footer-content">
+				<p>&copy; Bikash Thapa - 2019 </p>
+			</div>
 		</div>
-	</div>
+		<script type="text/javascript" src="js/modules.js"></script>
+
 </body>
 </html>
